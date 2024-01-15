@@ -1,11 +1,11 @@
 ---
 author: "Hugo Authors"
-title: "Markdown Syntax Guide For L2"
+title: "Markdown Syntax Guide For Ko"
 date: "2019-03-11"
 description: "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
-FRtags: ["markdown", "css", "html", "themes"]
-FRcategories: ["themes", "syntax"]
-FRseries: ["Themes Guide"]
+krtags: ["markdown", "css", "html", "themes"]
+krcategories: ["themes", "syntax"]
+krseries: ["Themes Guide"]
 aliases: ["migrate-from-jekyl"]
 ShowToc: true
 TocOpen: true
@@ -102,14 +102,17 @@ This is pre text
 ```html {linenos=true}
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title>Example HTML5 Document</title>
-        <meta name="description" content="Sample article showcasing basic Markdown syntax and formatting for HTML elements.">
-    </head>
-    <body>
-        <p>Test</p>
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <title>Example HTML5 Document</title>
+    <meta
+      name="description"
+      content="Sample article showcasing basic Markdown syntax and formatting for HTML elements."
+    />
+  </head>
+  <body>
+    <p>Test</p>
+  </body>
 </html>
 ```
 
@@ -156,19 +159,19 @@ This is pre text
 
 #### Unordered List
 
--   List item
--   Another item
--   And another item
+- List item
+- Another item
+- And another item
 
 #### Nested list
 
--   Fruit
-    -   Apple
-    -   Orange
-    -   Banana
--   Dairy
-    -   Milk
-    -   Cheese
+- Fruit
+  - Apple
+  - Orange
+  - Banana
+- Dairy
+  - Milk
+  - Cheese
 
 ## Other Elements — abbr, sub, sup, kbd, mark
 

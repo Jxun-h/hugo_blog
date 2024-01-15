@@ -28,7 +28,7 @@ languages:
     menu:
       main:
         - name: Archive
-          url: archives
+          url: archives/
           weight: 5
         - name: Search
           url: search/
@@ -50,20 +50,20 @@ languages:
         - name: 아카이브
           url: archives/
           weight: 5
-        - name: FRTags
-          url: frtags
+        - name: 태그
+          url: krtags
           weight: 10
-        - name: FRCategories
-          url: frcategories
+        - name: 카테고리
+          url: krcategories
           weight: 10
-        - name: FRSeries
-          url: frseries
+        - name: 시리즈
+          url: krseries
           weight: 10
         - name: NullLink
           url: "#"
 
     params:
-      languageAltTitle: French
+      languageAltTitle: Korean
       profileMode:
         enabled: true
         title: PaperMod
