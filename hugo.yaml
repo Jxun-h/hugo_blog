@@ -203,9 +203,9 @@ markup:
 #     enableDNT: true
 #     simple: true
 
-#   instagram:
-#     disabled: false
-#     simple: true
+# instagram:
+#   disabled: false
+#   simple: true
 
 #   youtube:
 #     disabled: false
