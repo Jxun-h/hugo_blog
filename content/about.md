@@ -1,7 +1,9 @@
 ---
 title: "About"
-layout: ""
 url: "about"
+summary: "짤막한 소개글"
+ShowToc: false
+# TocOpen: true
 ---
 
 ---
@@ -23,5 +25,8 @@ Email : its1108@kakao.com
 안정적인 서비스를 만드는데 기여하고자 노력하는 백엔드 개발자입니다.  
 또한 서비스가 안정적으로 운영되기 위한 방법에 대해 고민합니다.
 
+### [Resume.][3]
+
 [1]: https://github.com/Jxun-h
 [2]: https://dreamtreeits.tistory.com
+[3]: https://jxun-h.github.io/resume
