@@ -1,4 +1,4 @@
 ---
-title: "SearchKo"
+title: "Search"
 layout: "search"
 ---

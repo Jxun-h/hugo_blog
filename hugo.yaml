@@ -1,5 +1,5 @@
 baseURL: https://jxun-h.github.io/
-languageCode: en-us
+languageCode: ko-kr
 title: Jxun-h Dev Log
 paginate: 5
 theme: PaperMod
@@ -18,15 +18,56 @@ minify:
   disableXML: true
 
 languages:
+  # ko:
+  #   languageName: "Korean"
+  #   weight: 1
+  #   taxonomies:
+  #     category: KRcategories
+  #     tag: KRtags
+  #     series: KRseries
+  #   menu:
+  #     main:
+  #       - name: About
+  #         url: about
+  #         weight: 5
+  #       - name: 아카이브
+  #         url: archives/
+  #         weight: 5
+  #       - name: 검색
+  #         url: search/
+  #         weight: 10
+  #       - name: 태그
+  #         url: tags/
+  #         weight: 10
+
+  # params:
+  #   languageAltTitle: Korean
+  #   profileMode:
+  #     enabled: true
+  #     title: PaperMod
+  #     imageUrl: "https://raw.githubusercontent.com/googlefonts/noto-emoji/master/svg/emoji_u1f9d1_1f3fb_200d_1f4bb.svg"
+  #     imageTitle: ProfileMode image
+  #     # imageWidth: 120
+  #     # imageHeight: 120
+  #     subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
+  #     buttons:
+  #       - name: Blog
+  #         url: posts
+  #       - name: Profile Mode
+  #         url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
+
   en:
     languageName: "English"
-    weight: 1
+    weight: 2
     taxonomies:
       category: categories
       tag: tags
       series: series
     menu:
       main:
+        - name: About
+          url: about/
+          weight: 5
         - name: Archive
           url: archives/
           weight: 5
@@ -36,66 +77,6 @@ languages:
         - name: Tags
           url: tags/
           weight: 10
-        - name: WiKi
-          url: https://github.com/adityatelange/hugo-PaperMod/wiki/
-  ko:
-    languageName: "Korean"
-    weight: 2
-    taxonomies:
-      category: KRcategories
-      tag: KRtags
-      series: KRseries
-    menu:
-      main:
-        - name: 아카이브
-          url: archives/
-          weight: 5
-        - name: 태그
-          url: krtags
-          weight: 10
-        - name: 카테고리
-          url: krcategories
-          weight: 10
-        - name: 시리즈
-          url: krseries
-          weight: 10
-        - name: NullLink
-          url: "#"
-
-    params:
-      languageAltTitle: Korean
-      profileMode:
-        enabled: true
-        title: PaperMod
-        imageUrl: "https://raw.githubusercontent.com/googlefonts/noto-emoji/master/svg/emoji_u1f9d1_1f3fb_200d_1f4bb.svg"
-        imageTitle: ProfileMode image
-        # imageWidth: 120
-        # imageHeight: 120
-        subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
-        buttons:
-          - name: Blog
-            url: posts
-          - name: Profile Mode
-            url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
-
-fa:
-  languagedirection: rtl
-  weight: 3
-  title: PaperMod RTL
-  taxonomies:
-    category: FAcategories
-    tag: FAtags
-    series: FAseries
-  menu:
-    main:
-      - name: FATags
-        url: fatags
-        weight: 10
-  # custom params for each language should be under [langcode].parms - hugo v0.120.0
-  params:
-    homeInfoParams:
-      Title: "Hi there \U0001F44B"
-      Content: Welcome to RTL layout
 
 outputs:
   home:
@@ -105,8 +86,8 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-  author: Theme PaperMod
+  description: ""
+  author: Jxun-h
   # author: ["Me", "You"] # multiple authors
 
   defaultTheme: auto
@@ -121,7 +102,7 @@ params:
   ShowRssButtonInSectionTermList: true
   ShowAllPagesInArchive: true
   ShowPageNums: true
-  ShowToc: true
+  # ShowToc: true
   # comments: false
   images: ["images/papermod-cover.png"]
 
@@ -139,32 +120,32 @@ params:
         url: tags
 
   homeInfoParams:
-    Title: "PaperMod's Demo"
+    Title: "Wellcome to My Blog!🙋🏻‍♂️💻"
     Content: >
-      👋 Welcome to demo page of Hugo's theme PaperMod!
+      이 블로그에서는 아래와 같은 다양한 주제를 포스팅합니다.
+        1. BOJ 알고리즘 문제 풀이
+        2. 알고리즘을 공부한 자료
+        3. 백엔드에 대한 공부
+        4. 백엔드 개발을 하며 겪은 문제를 해결한 경험
 
-      - **PaperMod**  is designed to be clean and simple but fast and responsive theme with useful feature-set that enhances UX.
+      이외에도 다양한 주제로 포스팅을 합니다.
 
-      - Feel free to show your support by giving us a star 🌟 on GitHub and sharing with your friends and social media .
 
-      - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper/tree/4330c8b12aa48bfdecbcad6ad66145f679a430b3).
+      2024년 1월 9일부터 github.io를 기반한 블로그를 직접 개발하고 있습니다.
 
   socialIcons:
     - name: github
-      title: View Source on Github
-      url: "https://github.com/adityatelange/hugo-PaperMod"
-    - name: Discord
-      title: Join discord community
-      url: "https://discord.gg/ahpmTvhVmp"
-    - name: X
-      title: Share PaperMod on X/Twitter
-      url: "https://x.com/intent/tweet/?text=Checkout%20Hugo%20PaperMod%20%E2%9C%A8%0AA%20fast,%20clean,%20responsive%20Hugo%20theme.&url=https://github.com/adityatelange/hugo-PaperMod&hashtags=Hugo,PaperMod"
-    - name: KoFi
-      title: Buy me a Ko-Fi :)
-      url: "https://ko-fi.com/adityatelange"
+      title: Jxun-h's Github
+      url: "https://github.com/Jxun-h"
+    - name: Instagram
+      title: SNS
+      url: "https://www.instagram.com/_jxun_h/"
+    - name: Tistory
+      title: Tistory
+      url: "https://dreamtreeits.tistory.com/"
 
   editPost:
-    URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
+    URL: "https://github.com/Jxun-h/hugo_blog/tree/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
