@@ -19,6 +19,10 @@ Tistory : [dreamtreeits.tistory.com][2]
 Email : its1108@kakao.com
 <br><br>
 
+### <a href="https://jxun-h.github.io/resume/" target="_blank">Resume.</a>
+간단한 이력과 포트폴리오를 기재한 이력서입니다.
+<br><br>
+
 ### Introduction.
 
 트레이드 오프를 고려해 균형잡힌 선택을 하려 노력합니다.  
@@ -36,9 +40,8 @@ Email : its1108@kakao.com
 다시 시작하는 저의 블로그는 [github.io][4] 로 시작해보려 합니다.
 <br><br>
 
-### [Resume.][3]
+
 
 [1]: https://github.com/Jxun-h
 [2]: https://dreamtreeits.tistory.com
-[3]: https://jxun-h.github.io/resume
 [4]: https://github.com/Jxun-h/jxun-h.github.io
