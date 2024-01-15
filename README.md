@@ -1,1 +1,1 @@
-# huho_blog
+# hugo_blog
