@@ -3,7 +3,6 @@ title: "About"
 url: "about"
 summary: "짤막한 소개글"
 ShowToc: false
-# TocOpen: true
 ---
 
 ---
@@ -20,7 +19,7 @@ Email : its1108@kakao.com
 <br><br>
 
 ### <a href="https://jxun-h.github.io/resume/" target="_blank">Resume.</a>
-간단한 이력과 포트폴리오를 기재한 이력서입니다.
+이력과 포트폴리오를 기재한 이력서입니다.
 <br><br>
 
 ### Introduction.
