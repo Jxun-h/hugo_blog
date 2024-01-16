@@ -1,7 +1,7 @@
 baseURL: https://jxun-h.github.io/
 languageCode: ko-kr
 title: Jxun-h Dev Log
-paginate: 5
+paginate: 10
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -43,133 +43,135 @@ languages:
       series: series
     menu:
       main:
+        - name: Home
+          url: /
+          weight: 1
         - name: About
           url: about/
-          weight: 5
+          weight: 2
         - name: Archive
           url: archives/
-          weight: 5
+          weight: 3
         - name: Search
           url: search/
-          weight: 10
+          weight: 4
         - name: Tags
           url: tags/
-          weight: 10
+          weight: 5
+    outputs:
+      home:
+        - HTML
+        - RSS
+        - JSON
 
-outputs:
-  home:
-    - HTML
-    - RSS
-    - JSON
+    params:
+      env: production # to enable google analytics, opengraph, twitter-cards and schema.
+      description: ""
+      author: Jxun-h
+      # author: ["Me", "You"] # multiple authors
 
-params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: ""
-  author: Jxun-h
-  # author: ["Me", "You"] # multiple authors
+      defaultTheme: auto
+      # disableThemeToggle: true
+      ShowShareButtons: true
+      ShowReadingTime: true
+      # disableSpecial1stPost: true
+      displayFullLangName: true
+      ShowPostNavLinks: true
+      ShowBreadCrumbs: true
+      ShowCodeCopyButtons: true
+      ShowRssButtonInSectionTermList: true
+      ShowAllPagesInArchive: true
+      ShowPageNums: true
+      ShowToc: true
+      comments: true
+      images: ["images/papermod-cover.png"]
 
-  defaultTheme: auto
-  # disableThemeToggle: true
-  ShowShareButtons: true
-  ShowReadingTime: true
-  # disableSpecial1stPost: true
-  displayFullLangName: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
-  ShowRssButtonInSectionTermList: true
-  ShowAllPagesInArchive: true
-  ShowPageNums: true
-  ShowToc: true
-  # comments: false
-  images: ["images/papermod-cover.png"]
+      profileMode:
+        enabled: false
+        title: PaperMod
+        imageUrl: "#"
+        imageTitle: my image
+        # imageWidth: 120
+        # imageHeight: 120
+        buttons:
+          - name: Archives
+            url: archives
+          - name: Tags
+            url: tags
 
-  profileMode:
-    enabled: false
-    title: PaperMod
-    imageUrl: "#"
-    imageTitle: my image
-    # imageWidth: 120
-    # imageHeight: 120
-    buttons:
-      - name: Archives
-        url: archives
-      - name: Tags
-        url: tags
+      homeInfoParams:
+        Title: "Wellcome to My Blog!🙋🏻‍♂️💻"
+        Content: >
+          이 블로그에서는 아래와 같은 다양한 주제를 포스팅합니다.
+            1. BOJ 알고리즘 문제 풀이
+            2. 알고리즘을 공부한 자료
+            3. 백엔드에 대한 공부
+            4. 백엔드 개발을 하며 겪은 문제를 해결한 경험
 
-  homeInfoParams:
-    Title: "Wellcome to My Blog!🙋🏻‍♂️💻"
-    Content: >
-      이 블로그에서는 아래와 같은 다양한 주제를 포스팅합니다.
-        1. BOJ 알고리즘 문제 풀이
-        2. 알고리즘을 공부한 자료
-        3. 백엔드에 대한 공부
-        4. 백엔드 개발을 하며 겪은 문제를 해결한 경험
-
-      이외에도 다양한 주제로 포스팅을 합니다.
+          이외에도 다양한 주제로 포스팅을 합니다.
 
 
-      2024년 1월 9일부터 github.io를 기반한 블로그를 직접 개발하고 있습니다.
+          2024년 1월 9일부터 github.io를 기반한 블로그를 직접 개발하고 있습니다.
 
-  socialIcons:
-    - name: github
-      title: Jxun-h's Github
-      url: "https://github.com/Jxun-h"
-    - name: Instagram
-      title: SNS
-      url: "https://www.instagram.com/_jxun_h/"
-    - name: Tistory
-      title: Tistory
-      url: "https://dreamtreeits.tistory.com/"
+      socialIcons:
+        - name: github
+          title: Jxun-h's Github
+          url: "https://github.com/Jxun-h"
+        - name: Instagram
+          title: SNS
+          url: "https://www.instagram.com/_jxun_h/"
+        - name: Tistory
+          title: Tistory
+          url: "https://dreamtreeits.tistory.com/"
 
-  editPost:
-    URL: "https://github.com/Jxun-h/hugo_blog/tree/main/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+      editPost:
+        URL: "https://github.com/Jxun-h/hugo_blog/tree/main/content"
+        Text: "Suggest Changes" # edit text
+        appendFilePath: true # to append file path to Edit link
 
-  # label:
-  # iconSVG: '<svg xmlns="http://www.w3.org/2000/svg" height="25" viewBox="0 -960 960 960" fill="currentColor"><path d="M320-240h320v-80H320v80Zm0-160h320v-80H320v80ZM240-80q-33 0-56.5-23.5T160-160v-640q0-33 23.5-56.5T240-880h320l240 240v480q0 33-23.5 56.5T720-80H240Zm280-520v-200H240v640h480v-440H520ZM240-800v200-200 640-640Z"/></svg>'
-  # text: "Home"
-  # icon: icon.png
-  # iconHeight: 35
+      # label:
+      # iconSVG: '<svg xmlns="http://www.w3.org/2000/svg" height="25" viewBox="0 -960 960 960" fill="currentColor"><path d="M320-240h320v-80H320v80Zm0-160h320v-80H320v80ZM240-80q-33 0-56.5-23.5T160-160v-640q0-33 23.5-56.5T240-880h320l240 240v480q0 33-23.5 56.5T720-80H240Zm280-520v-200H240v640h480v-440H520ZM240-800v200-200 640-640Z"/></svg>'
+      # text: "Home"
+      # icon: icon.png
+      # iconHeight: 35
 
-  # analytics:
-  #     google:
-  #         SiteVerificationTag: "XYZabc"
+      # analytics:
+      #     google:
+      #         SiteVerificationTag: "XYZabc"
 
-  assets:
-    disableHLJS: true
-  #     favicon: "<link / abs url>"
-  #     favicon16x16: "<link / abs url>"
-  #     favicon32x32: "<link / abs url>"
-  #     apple_touch_icon: "<link / abs url>"
-  #     safari_pinned_tab: "<link / abs url>"
+      assets:
+        disableHLJS: true
+      #     favicon: "<link / abs url>"
+      #     favicon16x16: "<link / abs url>"
+      #     favicon32x32: "<link / abs url>"
+      #     apple_touch_icon: "<link / abs url>"
+      #     safari_pinned_tab: "<link / abs url>"
 
-  # cover:
-  #     hidden: true # hide everywhere but not in structured data
-  #     hiddenInList: true # hide on list pages and home
-  #     hiddenInSingle: true # hide on single page
+      # cover:
+      #     hidden: true # hide everywhere but not in structured data
+      #     hiddenInList: true # hide on list pages and home
+      #     hiddenInSingle: true # hide on single page
 
-  # fuseOpts:
-  #     isCaseSensitive: false
-  #     shouldSort: true
-  #     location: 0
-  #     distance: 1000
-  #     threshold: 0.4
-  #     minMatchCharLength: 0
-  #     keys: ["title", "permalink", "summary", "content"]
+      # fuseOpts:
+      #     isCaseSensitive: false
+      #     shouldSort: true
+      #     location: 0
+      #     distance: 1000
+      #     threshold: 0.4
+      #     minMatchCharLength: 0
+      #     keys: ["title", "permalink", "summary", "content"]
 
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-  highlight:
-    noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+    markup:
+      goldmark:
+        renderer:
+          unsafe: true
+      highlight:
+        noClasses: false
+        # anchorLineNos: true
+        # codeFences: true
+        # guessSyntax: true
+        # lineNos: true
+        # style: monokai
 
 # privacy:
 #   vimeo:

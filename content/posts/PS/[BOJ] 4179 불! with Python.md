@@ -4,14 +4,14 @@ title: "[BOJ] 4179 불! with Python"
 date: "2021-08-28"
 description: ""
 summary: ""
-tags: ["DP", "PS", "다이나믹프로그래밍", "알고리즘"]
+tags: ["BFS", "PS", "너비우선탐색", "알고리즘", "백준", "BOJ"]
 categories: ["Algorithm"]
 series: ["BOJ"]
 ShowToc: false
 ---
 <br>
 
-## 📌 [BOJ 4179 불!](https://www.acmicpc.net/problem/4179)
+## 📌 <a href="https://www.acmicpc.net/problem/4179" target="_blank">BOJ 4179 불!</a>
 <br>
 
 ### 💡 조건 및 풀이
