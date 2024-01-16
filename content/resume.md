@@ -200,6 +200,8 @@ TocOpen: false
 
 </details><br>
 
+---
+
 ## Skills
 
 ### Overall.
@@ -224,7 +226,7 @@ TocOpen: false
 - JDBC를 능숙하게 사용하고, 속도개선을 위해 캐싱이나 배치를 적절히 활용합니다.
 - 불필요한 API 호출을 최대한 삼가하며, 합리적인 방식으로 서비스를 분리합니다.
 
-<br>
+---
 
 ## Education
 
@@ -239,6 +241,7 @@ TocOpen: false
 | 정보처리기사   |     | 2018.08.17                 |
 | 리눅스마스터 2급 |     | 2017.06.10             |
 
+---
 
 [1]: https://dreamtreeits.tistory.com/
 [2]: https://github.com/Jxun-h/jxun-h.github.io/
