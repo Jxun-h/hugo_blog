@@ -31,7 +31,7 @@ ShowToc: false
 
 #### 예제
 
-```
+```python
 10
 5 50
 4 40
@@ -49,7 +49,7 @@ ShowToc: false
 
 ```
 90
-```
+```python
 
 <br>
 

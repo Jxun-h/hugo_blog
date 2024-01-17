@@ -29,7 +29,7 @@ ShowToc: false
 
 #### 예제
 
-```
+```python
 5
 1 1 0 1 1
 0 1 0 0 0
@@ -40,7 +40,7 @@ ShowToc: false
 
 #### 실행결과
 
-```
+```python
 7
 ```
 

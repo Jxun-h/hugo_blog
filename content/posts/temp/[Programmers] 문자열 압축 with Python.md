@@ -29,7 +29,7 @@ ShowToc: false
 
 #### 예제
 
-```
+```python
 print(solution("aabbaccc"))
 print(solution("ababcdcdababcdcd"))
 print(solution("abcabcdede"))
@@ -39,7 +39,7 @@ print(solution("xababcdcdababcdcd"))
 
 #### 실행결과
 
-```
+```python
 7
 9
 8

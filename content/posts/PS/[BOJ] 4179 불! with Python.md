@@ -29,7 +29,7 @@ ShowToc: false
 
 #### 예제
 
-```
+```python
 4 4
 ####
 #JF#
@@ -38,7 +38,7 @@ ShowToc: false
 ```
 
 #### 실행결과
-```
+```python
 3
 ```
 

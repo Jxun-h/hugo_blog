@@ -29,14 +29,14 @@ ShowToc: false
 
 #### 예제
 
-```
+```python
 expression = "100-200*300-500+20"
 expression = "50*6-3*2"
 ```
 
 #### 실행결과
 
-```
+```python
 60420
 300
 ```

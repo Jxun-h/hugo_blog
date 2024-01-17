@@ -30,7 +30,7 @@ ShowToc: false
 
 #### 예제
 
-```
+```python
 5
 4
 1 3 1 2
@@ -40,7 +40,7 @@ ShowToc: false
 
 #### 실행결과
 
-```
+```python
 7
 ```
 
@@ -54,7 +54,7 @@ ShowToc: false
     구하고자 하는 t 값에서 A 배열의 키 값을 빼준 값이 B배열의 키값으로 있다면,  
     res에 해당 B배열의 값과 A배열의 값을 곱하여 더해준다.
     
-    ```
+    ```python
     for key in Asum.keys():
      if (t - key) in Bsum:
          res += Bsum[t - key] * Asum[key]

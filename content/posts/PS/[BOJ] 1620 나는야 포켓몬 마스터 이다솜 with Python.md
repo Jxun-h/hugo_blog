@@ -30,7 +30,7 @@ ShowToc: false
 
 #### 예제
 
-```
+```python
 26 5
 Bulbasaur
 Ivysaur
@@ -67,7 +67,7 @@ Kakuna
 
 #### 실행결과
 
-```
+```python
 Pikachu
 26
 Venusaur

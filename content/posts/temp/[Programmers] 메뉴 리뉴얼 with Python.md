@@ -39,13 +39,13 @@ ShowToc: false
 
 #### 예제
 
-```
+```python
 print(solution(["ABCFG", "AC", "CDE", "ACDE", "BCFG", "ACDEH"], [2, 3, 4]))
 ```
 
 #### 실행결과
 
-```
+```python
 ["AC", "ACDE", "BCFG", "CDE"]
 ```
 
@@ -59,7 +59,7 @@ print(solution(["ABCFG", "AC", "CDE", "ACDE", "BCFG", "ACDEH"], [2, 3, 4]))
 4.  `조합 라이브러리`를 사용해 3번 반복문에서 나오는 코스의 메뉴개수만큼 메뉴를 뽑아서  
     중복을 없앤 뒤 t문자열에 저장. **(t는 j 개를 뽑아 만든 메뉴의 조합입니다.)**
     
-    ```
+    ```python
     list(set(combinations(data, j)))
     # set()은 중복을 없애줍니다!
     ```
@@ -69,7 +69,7 @@ print(solution(["ABCFG", "AC", "CDE", "ACDE", "BCFG", "ACDEH"], [2, 3, 4]))
 6.  **최소 2명 이상의 손님으로부터 주문**된 **단품메뉴 조합** 만 해당하기 때문에  
     `score`에 저장된 점수가 1점 이상이라면 `new_score`에 `(메뉴, 점수)` 형식으로 저장 후 점수를 기준으로 정렬
     
-    ```
+    ```python
     """
     # lambda 설명
     x 를 x[1] 기준으로 정렬할건데, -가 붙으면 역순입니다.

@@ -33,13 +33,13 @@ ShowToc: false
 
 #### 예제
 
-```
+```python
 places = [["POOOP", "OXXOX", "OPXPX", "OOXOX", "POXXP"], ["POOPX", "OXPXP", "PXXXO", "OXXXO", "OOOPP"], ["PXOPX", "OXOXP", "OXPOX", "OXXOP", "PXPOX"], ["OOOXX", "XOOOX", "OOOXX", "OXOOX", "OOOOO"], ["PXPXP", "XPXPX", "PXPXP", "XPXPX", "PXPXP"]]
 ```
 
 #### 실행결과
 
-```
+```python
 [1, 0, 1, 1, 1]
 ```
 
@@ -55,7 +55,7 @@ places = [["POOOP", "OXXOX", "OPXPX", "OOXOX", "POXXP"], ["POOPX", "OXPXP", "PXX
 3.  두 응시자의 맨해튼 거리가 2 이하일 때, 사이에 파티션이 있는 경우를 처리 하지 못해서 테스트 케이스 5번이 틀렸다.  
     내가 틀린 반례는 아래와 같다. 답은 1이다.
     
-    ```
+    ```python
     [["OPXPO", "OOOOO", "OOOOO", "OOOOO", "OOOOO"]]   
     ```
     
