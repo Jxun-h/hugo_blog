@@ -16,7 +16,7 @@ ShowToc: false
 
 <br>
 
-## 💡 조건 및 풀이
+### 💡 조건 및 풀이
 
 1.  `orders` 배열의 크기는 2 이상 20 이하.
 2.  `orders` 배열의 각 원소는 크기가 2 이상 10 이하인 문자열.  
@@ -35,7 +35,7 @@ ShowToc: false
 
 <br>
 
-## 🔖 예제 및 실행결과
+### 🔖 예제 및 실행결과
 
 #### 예제
 
@@ -51,7 +51,7 @@ print(solution(["ABCFG", "AC", "CDE", "ACDE", "BCFG", "ACDEH"], [2, 3, 4]))
 
 <br>
 
-## ⌨️ 문제 풀이
+### ⌨️ 문제 풀이
 
 1.  주문을 받은 `orders` 배열을 순차적으로 순회할 반복문.
 2.  순회하며 메뉴들을 리스트로 만들어 정렬.
@@ -82,7 +82,7 @@ print(solution(["ABCFG", "AC", "CDE", "ACDE", "BCFG", "ACDEH"], [2, 3, 4]))
 
 <br>
 
-## 🖥 소스 코드
+### 🖥 소스 코드
 
 ```python
 from itertools import combinations
@@ -124,7 +124,7 @@ def solution(orders, course):
 
 <br>
 
-## 💾 느낀점
+### 💾 느낀점
 
 -   정렬을 할 때 `lambda`를 많이 사용한게 도움이 되었다.
 -   `combinations`를 사용해서 번거로운 일이 적어서 좋았다.  

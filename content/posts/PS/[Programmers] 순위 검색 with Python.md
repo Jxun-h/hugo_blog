@@ -16,7 +16,7 @@ ShowToc: false
 
 <br>
 
-## 💡 조건 및 풀이
+### 💡 조건 및 풀이
 
 1.  **조건**을 만족하는 사람 중 `코딩테스트 점수를 X점 이상 받은 사람`은 모두 몇 명인가?  
     를 구하는 문제
@@ -31,7 +31,7 @@ ShowToc: false
 
 <br>
 
-## 🔖 예제 및 실행결과
+### 🔖 예제 및 실행결과
 
 #### 예제
 
@@ -49,7 +49,7 @@ query = ["java and backend and junior and pizza 100", "python and frontend and s
 
 <br>
 
-## ⌨️ 문제 풀이
+### ⌨️ 문제 풀이
 
 1.  info 배열을 순회하며 얻은 데이터를 잘라 배열로 만들고, 그 배열을 각각 데이터와 점수 부분으로 나누어 준다.
 2.  `temp = j.split() condition = temp[:-1] score = int(temp[-1])`
@@ -63,7 +63,7 @@ query = ["java and backend and junior and pizza 100", "python and frontend and s
 
 <br>
 
-## 🖥 소스 코드
+### 🖥 소스 코드
 
 ```python
 from itertools import combinations
@@ -110,7 +110,7 @@ def solution(info, query):
 
 <br>
 
-## 💾 느낀점
+### 💾 느낀점
 
 -   모든 경우의 수를 data 에 입력하여 찾는 아이디어를 구상하는 것이 힘이 들었다.
 -   sql에 해당하는 지원자를 이분탐색으로 찾을 아이디어와 dict 자료구조를 사용할 아이디어를 떠올리니  
