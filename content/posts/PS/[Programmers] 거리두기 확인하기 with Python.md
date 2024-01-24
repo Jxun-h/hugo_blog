@@ -6,7 +6,7 @@ description: ""
 summary: ""
 tags: ["BFS", "PS", "너비우선탐색", "알고리즘", "프로그래머스"]
 categories: ["Algorithm"]
-series: ["BOJ"]
+series: ["Programmers"]
 ShowToc: false
 ---
 <br>

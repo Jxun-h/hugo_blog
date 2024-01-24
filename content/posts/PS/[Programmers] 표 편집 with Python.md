@@ -6,7 +6,7 @@ description: ""
 summary: ""
 tags: ["연결리스트", "PS", "자료구조", "알고리즘", "백준", "BOJ"]
 categories: ["Algorithm"]
-series: ["BOJ"]
+series: ["Programmers"]
 ShowToc: false
 ---
 

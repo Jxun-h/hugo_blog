@@ -6,7 +6,7 @@ description: ""
 summary: ""
 tags: ["정렬", "PS", "구현", "알고리즘", "백준", "BOJ"]
 categories: ["Algorithm"]
-series: ["BOJ"]
+series: ["Programmers"]
 ShowToc: false
 ---
 

@@ -6,7 +6,7 @@ description: ""
 summary: ""
 tags: ["자료구조", "PS", "스택", "알고리즘", "프로그래머스"]
 categories: ["Algorithm"]
-series: ["BOJ"]
+series: ["Programmers"]
 ShowToc: false
 ---
 <br>

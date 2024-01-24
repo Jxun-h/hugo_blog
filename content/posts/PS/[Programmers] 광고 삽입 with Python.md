@@ -6,7 +6,7 @@ description: ""
 summary: ""
 tags: ["다이나믹프로그래밍", "PS", "DP", "알고리즘", "백준", "BOJ", "메모이제이션"]
 categories: ["Algorithm"]
-series: ["BOJ"]
+series: ["Programmers"]
 ShowToc: false
 ---
 
