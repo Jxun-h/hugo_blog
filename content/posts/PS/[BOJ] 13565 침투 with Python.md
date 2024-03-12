@@ -4,7 +4,7 @@ title: "[BOJ] 13565 침투 with Python"
 date: "2022-02-19"
 description: ""
 summary: ""
-tags: ["자료구조", "PS", "BFS", "그래프이론", "알고리즘", "백준", "BOJ"]
+tags: ["자료구조", "PS", "BFS", "그래프 이론", "알고리즘", "백준", "BOJ"]
 categories: ["Algorithm"]
 series: ["BOJ"]
 ShowToc: false
@@ -53,9 +53,9 @@ NO
     만약 n - 1 과 현재 큐에서 뽑은 x 좌표의 값이 같다면 맨 밑으로 전류가 전달 된 것이니 true 를 반환합니다.  
     아니라면 None 이 반환됩니다.
 3.  가장 윗줄을 볼 것이기 때문에 m만큼 순회를 시작합니다.(j)  
-    borad\[0\]\[i\] 가 0이고 (0, j) 좌표가 이미 검사한 좌표가 아니라면 bfs에 넣습니다.
-4.  bfs의 결과 값이 true가 반환되었다면 res\_tf 를 true로 갱신하고 순회를 종료합니다.
-5.  res\_tf 가 true 라면 YES, 아니라면 NO 를 출력합니다
+    borad[0][i] 가 0이고 (0, j) 좌표가 이미 검사한 좌표가 아니라면 bfs에 넣습니다.
+4.  bfs의 결과 값이 true가 반환되었다면 res_tf 를 true로 갱신하고 순회를 종료합니다.
+5.  res_tf 가 true 라면 YES, 아니라면 NO 를 출력합니다
 
 
 <br>

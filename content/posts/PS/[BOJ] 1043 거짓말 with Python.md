@@ -4,7 +4,7 @@ title: "[BOJ] 1043 거짓말 with Python"
 date: "2021-10-20"
 description: ""
 summary: ""
-tags: ["자료구조", "PS", "그래프이론", "알고리즘", "백준", "BOJ"]
+tags: ["자료구조", "PS", "그래프 이론", "알고리즘", "백준", "BOJ"]
 categories: ["Algorithm"]
 series: ["BOJ"]
 ShowToc: false

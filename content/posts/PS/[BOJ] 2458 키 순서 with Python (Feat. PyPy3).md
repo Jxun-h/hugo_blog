@@ -4,7 +4,7 @@ title: "[BOJ] 2458 키 순서 with Python (Feat. PyPy3)"
 date: "2021-09-02"
 description: ""
 summary: ""
-tags: ["플로이드-와샬", "PS", "그래프이론", "알고리즘", "프로그래머스"]
+tags: ["플로이드-와샬", "PS", "그래프 이론", "알고리즘", "프로그래머스"]
 categories: ["Algorithm"]
 series: ["BOJ"]
 ShowToc: false
