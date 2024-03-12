@@ -58,8 +58,8 @@ query = ["java and backend and junior and pizza 100", "python and frontend and s
 4.  `for i in range(5): comb = list(combinations(range(4), i)) for c in comb: test_case = condition.copy() for idx in c: test_case[idx] = '-' case = ''.join(test_case) if case not in data: data[case] = [score] else: data[case].append(score)`
 5.  이분탐색 라이브러리인 bisect 라이브러리를 사용해 사용을 할 것이기 때문에 dict 자료구조의 value를 정렬해준다.
 6.  파라미터로 받아온 sql을 순차적으로 돌면서 and 문자열을 ''로 바꾸어주고 split 해준다.  
-    test\_query 와 test\_score 로 나누어주고, test\_query에 해당하는 인원 중(data의 key)  
-    test\_score 이상의 점수를 얻은(data의 value) 인원의 수를 계산하여 answer에 입력해준다.
+    test_query 와 test_score 로 나누어주고, test_query에 해당하는 인원 중(data의 key)  
+    test_score 이상의 점수를 얻은(data의 value) 인원의 수를 계산하여 answer에 입력해준다.
 
 <br>
 

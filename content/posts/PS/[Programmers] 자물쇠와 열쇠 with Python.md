@@ -69,7 +69,7 @@ true
 
 <br>
 
-4.  열쇠를 0, 0 부터 new\_lock 의 크기에서 key의 길이만큼 뺀 값까지 이동시키면서 반복순회를 한다.
+4.  열쇠를 0, 0 부터 new_lock 의 크기에서 key의 길이만큼 뺀 값까지 이동시키면서 반복순회를 한다.
     ```python
     def check(lock, lock_l):  
      for i in range(lock_l):  
