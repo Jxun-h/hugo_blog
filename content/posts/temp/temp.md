@@ -1,7 +1,7 @@
 ---
 author: ["Jxun-h"]
 title: "[BOJ] temp with Python"
-date: "2023-04-01"
+date: "0000-04-01"
 description: ""
 summary: ""
 tags: ["자료구조", "PS", "정렬", "백준", "BOJ"]
