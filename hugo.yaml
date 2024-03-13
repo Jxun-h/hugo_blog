@@ -46,9 +46,6 @@ languages:
         - name: About
           url: about/
           weight: 2
-        - name: Board
-          url: board/
-          weight: 3
         - name: Archive
           url: archives/
           weight: 4
