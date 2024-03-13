@@ -1,6 +1,6 @@
 ---
 author: ["Jxun-h"]
-title: "[BOJ] 12760 with Python"
+title: "[BOJ] temp with Python"
 date: "2023-04-01"
 description: ""
 summary: ""
@@ -12,7 +12,7 @@ ShowToc: false
 
 <br>
 
-## 📌 <a href="https://www.acmicpc.net/problem/12760" target="_blank">BOJ 12760</a>
+## 📌 <a href="https://www.acmicpc.net/problem/temp" target="_blank">BOJ temp</a>
 
 <br>
 
