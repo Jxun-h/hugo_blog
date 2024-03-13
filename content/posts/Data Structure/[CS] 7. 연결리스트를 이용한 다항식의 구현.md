@@ -26,7 +26,7 @@ struct poly{
     int expon;          // 지수
     struct poly *link;  // 링크
 
-}\*a, \*b, \*c
+}*a, *b, *c
 ```
 
 <br>

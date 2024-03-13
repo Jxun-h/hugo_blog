@@ -105,7 +105,7 @@ def solve():
 
 try:
     ans = sorted(solve())
-    print(*ans, sep='\n')
+    print(*ans, sep='n')
 
 except:
     pass

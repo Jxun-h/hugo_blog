@@ -19,10 +19,10 @@ ShowToc: false
 ### 💡 희소행렬
 
 1.  행렬의 표현
-    1.  2차원 배열 : Array\[MaxRows\]\[MaxCols\]
+    1.  2차원 배열 : Array[MaxRows][MaxCols]
     2.  0이 많이 포함된 경우, 희소행렬이라고 한다.
     3.  0이 아닌 데이터의 수 < 0인 데이터의 수
-    4.  만약 1000 \* 1000 행렬에서 0이 아닌 원소가 10개라면, 메모리 낭비일 수 있다.
+    4.  만약 1000 * 1000 행렬에서 0이 아닌 원소가 10개라면, 메모리 낭비일 수 있다.
 
 <br>
 
@@ -51,8 +51,8 @@ ShowToc: false
 
 1.  Column을 기준으로 순회하면서 뒤집어 저장한다.
 2.  성능분석
-    1.  O(Columns \* Elements) ~ O(Columns^2 \* Rows)
-    2.  복잡도 : O(Rows \* Columns)
+    1.  O(Columns * Elements) ~ O(Columns^2 * Rows)
+    2.  복잡도 : O(Rows * Columns)
 
 <br>
 
@@ -60,7 +60,7 @@ ShowToc: false
 
 1.  각 Column 이 저장될 곳을 미리 파악 -> Column index
 2.  각 Column index 저장을 위한 추가적인 공간을 사용한다.
-    1.  row\_terms = 2 1 2 2 0 1
-    2.  starting\_pos = 1 3 4 6 8 8
+    1.  row_terms = 2 1 2 2 0 1
+    2.  starting_pos = 1 3 4 6 8 8
 3.  복잡도 : O(columns + Elements)
-4.  Elements = columns \* row 일 때, Element 의 시간복잡도는 O(Columns \* Row \* Columns)
+4.  Elements = columns * row 일 때, Element 의 시간복잡도는 O(Columns * Row * Columns)
