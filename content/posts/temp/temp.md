@@ -1,7 +1,7 @@
 ---
 author: ["Jxun-h"]
 title: "[BOJ] 12760 with Python"
-date: "2022-07-01"
+date: "2023-04-01"
 description: ""
 summary: ""
 tags: ["자료구조", "PS", "정렬", "백준", "BOJ"]
